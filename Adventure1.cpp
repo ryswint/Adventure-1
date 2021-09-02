@@ -91,7 +91,6 @@ int main()
 						break;
 					case 3:
 						cout << "Demon";
-
 					}
 					cout << endl << "2. Random Turns: ";
 					if (rndTurns) cout << "On";
@@ -130,7 +129,6 @@ int main()
 							break;
 						default:
 							cout << endl << "How are you going to fight if you can't follow simple instructions " << name << "?";
-
 						}
 						break;
 
@@ -149,18 +147,13 @@ int main()
 						break;
 					default:
 						cout << endl << "Does " << selection2 << " look like an option, try again!";
-						break;
-
-
-
-
+						break;							
 					}
 				}
 				break;
 			case 3:
 				return 0;
 			}
-
 		}
 
 		srand(time(NULL)); //Seed RNG with current time
@@ -252,7 +245,6 @@ int main()
 				system("Color 07");
 				Sleep(1000);
 				cout << endl << "Health: " << currentHealth;
-
 			}
 			else //Block Successful
 			{
@@ -274,7 +266,6 @@ int main()
 			}
 
 			Sleep(waitTime);
-
 		}
 
 		if (currentHealth > 0)//End Game
@@ -314,11 +305,8 @@ int main()
 				cout << endl << "What do you mean " << answer << "? The instructions were not that hard " << name << "! Have an Energy Potion and try again!" << endl;
 				answerLoop = true;
 			}
-
 		}
-
 	}
-
 }
 
 
